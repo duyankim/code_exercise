@@ -20,7 +20,6 @@ public class BJ2346 {
         StringBuilder sb = new StringBuilder();
         sb.append("1 ");
 
-        int idx = 0;
         int nxtMove = Integer.parseInt(st.nextToken());
 
         for (int i = 2; i <= elements; i++) {

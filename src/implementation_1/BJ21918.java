@@ -23,9 +23,7 @@ public class BJ21918 {
             int r;
 
             switch (cmd) {
-                case 1 -> {
-                    result[br.nextInt() - 1] = br.nextInt();
-                }
+                case 1 -> result[br.nextInt() - 1] = br.nextInt();
                 case 2 -> {
                     l = br.nextInt();
                     r = br.nextInt();
@@ -48,9 +46,7 @@ public class BJ21918 {
                         result[k] = 1;
                     }
                 }
-                default -> {
-                    System.out.println("invalid");
-                }
+                default -> System.out.println("invalid");
             }
         }
         Arrays.stream(result).forEach(a -> System.out.print(a + " "));
